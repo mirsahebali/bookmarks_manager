@@ -56,9 +56,9 @@ export default function Page() {
       <div className="flex flex-col gap-6 justify-center items-center bg-blue-600">
         <div className="text-4xl font-extrabold">Bookmark Manager</div>
         <div className="flex flex-col justify-center items-center mt-32">
-          <Link href={`http://atomichouse.co/`} className="font-bold">
+          <Link href={"https://github.com/mirsahebali"} className="font-bold">
             {" "}
-            Made in Atomic House
+            Made By Mir Saheb Ali
           </Link>
         </div>
       </div>
