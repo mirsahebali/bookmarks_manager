@@ -39,7 +39,10 @@ export default function Page() {
               placeholder="mail@example.com"
             />
 
-            <button className="py-4 text-white bg-purple-700 rounded-s">
+            <button
+              className="py-4 text-white bg-purple-700 rounded-s"
+              type="submit"
+            >
               Done
             </button>
 

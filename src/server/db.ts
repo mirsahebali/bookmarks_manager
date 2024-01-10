@@ -26,7 +26,6 @@ if (process.env.NODE_ENV !== "production") {
 } else {
   postgresSqlClient = postgres(databaseUrl);
 }
-
 export const db = drizzle(postgresSqlClient, {
   schema: {
     ...auth,
